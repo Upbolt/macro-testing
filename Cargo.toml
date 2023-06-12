@@ -8,4 +8,4 @@ edition = "2021"
 [dependencies]
 reqwest = "0.11.18"
 tokio = { version = "1.28.2", features = ["full"] }
-macro-derive = { path = "macro-derive", version = "0.1.0" }
+macro-derive = { path = "macro-derive", source = "git+https://github.com/Upbolt/macro-testing/macro-derive.git", version = "0.1.0" }
